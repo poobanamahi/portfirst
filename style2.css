@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 15;
+    padding: 15;
+    background: linear-gradient(to right,  #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#skills-section {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#skills-section h2 {
+    margin-bottom: 20px;
+    color: #070707;
+}
+
+.skill-category {
+    margin-bottom: 20px;
+}
+
+.skill-category h3 {
+    margin-bottom: 10px;
+    color: #211e1e;
+}
+
+.skill-category ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.skill-category li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.skill-category li i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.skill-category p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.skill-category p i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+input[type="range"] {
+    margin-left: 10px;
+    width: 60%;
+}

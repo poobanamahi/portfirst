@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ff7e5f;
+    margin: 25;
+    padding: 25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#certifications {
+    background-color: #ede0e1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.certifi {
+    color: #141414;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    color: #0a0909;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}

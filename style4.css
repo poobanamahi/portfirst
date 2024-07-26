@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ff7e5f;
+    margin: 15;
+    padding: 15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#projects {
+    background-color: #fbf1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+#projects h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #050404;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.project p {
+    color: #161414;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.project img {
+    width: 70%;
+    height: auto;
+    border-radius: 8px;
+}
